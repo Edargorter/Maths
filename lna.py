@@ -13,9 +13,6 @@ a = [i*inc for i in range(n)]
 b = [m - a[i] for i in range(n)]
 r = [a[i]**b[i] - (b[i]**a[i]) for i in range(n)]
 
-print(a)
-print(b)
-
 def plot_vals(x, y, z, proj=None):
     ax = plt.axes(projection=proj)
     ax.set_xlabel("a")
